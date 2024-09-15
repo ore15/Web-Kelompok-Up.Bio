@@ -106,7 +106,7 @@ body{
     .description2{
         width: 200%;
     }
- 
+    
     
 }
 @media (max-width: 508px) {
@@ -136,12 +136,28 @@ body{
             width: 200%;
         }
     }
+    @media (min-width: 340px){
+        .paralax img#sun{
+            width: 185%;
+        }
+    }
+    @media (min-width: 367px){
+        .paralax img#sun{
+            width: 170%;
+        }
+    }
+    @media (min-width: 398px){
+        .paralax img#sun{
+            width: 160%;
+        }
+    }
 }
 /* sheep */
 @media (max-width:318){
     .paralax img#shep1{
         width: 200%;
     }
+    
 }
 /* sun 3 */
 @media (min-width: 413px){
@@ -156,7 +172,7 @@ body{
 }
 @media (min-width: 492px){
     .paralax img#sun{
-       width: 126%;
+       width: 130%;
     }
 }
 
